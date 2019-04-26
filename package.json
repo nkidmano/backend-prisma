@@ -1,0 +1,18 @@
+{
+  "name": "backend-prisma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "deploy": "prisma deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "graphql-yoga": "^1.17.4",
+    "nodemon": "^1.18.11",
+    "prisma-client-lib": "^1.31.1"
+  }
+}

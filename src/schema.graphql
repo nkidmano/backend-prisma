@@ -1,0 +1,13 @@
+type Query {
+  users: [User]!
+}
+
+type Mutation {
+  dummy: String
+}
+
+type User {
+  id: ID!
+  email: String!
+  name: String!
+}

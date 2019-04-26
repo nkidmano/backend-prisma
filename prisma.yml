@@ -1,0 +1,6 @@
+endpoint: https://us1.prisma.sh/duong-thanh-tan-079ccf/backend-prisma/dev
+datamodel: datamodel.prisma
+
+generate:
+  - generator: javascript-client
+    output: .src/generated/prisma-client/
